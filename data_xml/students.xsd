@@ -33,7 +33,8 @@
     </simpleType>
     <complexType name="Address">
         <sequence>
-            <element name="country" type="string"/>
+            <element name="country" type="string">
+            </element>
             <element name="city" type="string"/>
             <element name="street" type="string"/>
         </sequence>

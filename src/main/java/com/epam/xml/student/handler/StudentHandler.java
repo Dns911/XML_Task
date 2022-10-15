@@ -13,7 +13,7 @@ public class StudentHandler extends DefaultHandler {
     private EnumSet<StudentXmlTag> withText;
     private static final String ELEMENT_STUDENT = "student";
     public StudentHandler() {
-        students = new HashSet<Student>();
+        students = new HashSet<>();
         withText = EnumSet.range(StudentXmlTag.NAME, StudentXmlTag.STREET);
     }
     public Set<Student> getStudents() {

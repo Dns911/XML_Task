@@ -13,7 +13,7 @@ import java.io.IOException;
 import java.util.Set;
 import java.util.StringJoiner;
 
-public class StudentsSaxBuilder {
+public class StudentsSaxBuilder  {
 
 
     private Set<Student> students;
@@ -29,9 +29,9 @@ public class StudentsSaxBuilder {
             reader = saxParser.getXMLReader();
         } catch (ParserConfigurationException | SAXException e) {
             e.printStackTrace(); // log
+        }
             reader.setErrorHandler(new StudentErrorHandler());
             reader.setContentHandler(handler);
-        }
     }
 
     public Set<Student> getStudents() {

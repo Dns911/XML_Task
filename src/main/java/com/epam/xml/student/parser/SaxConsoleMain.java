@@ -2,6 +2,7 @@ package com.epam.xml.student.parser;
 
 import com.epam.xml.student.handler.ConsoleStudentHandler;
 import com.epam.xml.student.handler.StudentErrorHandler;
+import com.epam.xml.student.handler.StudentHandler;
 import org.xml.sax.SAXException;
 import org.xml.sax.XMLReader;
 import javax.xml.parsers.ParserConfigurationException;
